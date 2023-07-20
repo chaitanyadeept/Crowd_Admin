@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Crowd User Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:../../partials/_navbar.html -->
+      <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row NavBG">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../assets/images/Logo.png" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/Small.png" alt="logo" /></a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+          <div class="search-field d-none d-md-block">
+            <form class="d-flex align-items-center h-100" action="#">
+              <div class="input-group">
+                <div class="input-group-prepend bg-transparent">
+                  <i class="input-group-text border-0 mdi mdi-magnify"></i>
+                </div>
+                <input type="text" class="form-control bg-transparent border-0" placeholder="Search..">
+              </div>
+            </form>
+          </div>
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item d-none d-lg-block full-screen-link">
+              <a class="nav-link">
+                <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
+              </a>
+            </li>
+            <li class="nav-item nav-logout d-none d-lg-block">
+              <a class="nav-link" href="#">
+                <i class="mdi mdi-message-video mx-1"></i><span>Live Training</span>
+              </a>
+              
+            </li>
+            <li class="nav-item nav-logout d-none d-lg-block">
+              <a class="nav-link" href="#">
+                <i class="mdi mdi-comment-question-outline mx-1"></i><span>FAQ</span>
+              </a>
+              
+            </li>
+            <li class="nav-item nav-settings d-none d-lg-block">
+              <a class="nav-link" href="#">
+                <i class="mdi mdi-anchor mx-1"></i><Span>Support</Span></i>
+              </a>
+           
+            </li>
+            <li class="nav-item nav-profile dropdown">
+              <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="nav-profile-text">
+                  <p class="mb-1 text-black text-muted">Chaitanyadeep</p>
+                </div>
+              </a>
+              <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-cached me-2 text-success"></i> My Profile </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="mdi mdi-cached me-2 text-success"></i> Change Password </a>
+                    <a class="dropdown-item" href="#">
+                      <i class="mdi mdi-cached me-2 text-success"></i> Deactivate account </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <i class="mdi mdi-logout me-2 text-primary"></i> Signout </a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="mdi mdi-menu"></span>
+          </button>
+        </div>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">
+                <span class="menu-title">Dashboard</span>
+                <i class="mdi mdi-home menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./NDA_Agreement.html">
+                <span class="menu-title">NDA Agreement</span>
+                <i class="mdi mdi-file-document-box menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <span class="menu-title">Profile Information</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-face-profile menu-icon"></i>
+              </a>
+              <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/Profile.html">Profile</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/Personal Information.html">Personal Information</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/Education.html">Education</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/Hobbies.html">Hobbies</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/Work Experience.html">Work Experience</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/Certification.html">Certification</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/ID Proofs.html">ID Proofs</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../Profile_Information/Languages.html">Languages</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Payment_Details/Payment_Details.html">
+                <span class="menu-title">Payment Details</span>
+                <i class="mdi mdi-cash-usd menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Assessment/Assessment.html">
+                <span class="menu-title">Assessment</span>
+                <i class="mdi mdi-laptop-chromebook menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/Training_Videos/Training_Videos.html">
+                <span class="menu-title">Training Videos</span>
+                <i class="mdi mdi-video menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/HitApp_Pages/HitApp_pages.html">
+                <span class="menu-title">HitApp Pages</span>
+                <i class="mdi mdi-google-pages menu-icon"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
+                <span class="menu-title">Login Pages</span>
+                <i class="menu-arrow"></i>
+                <i class="mdi mdi-login menu-icon"></i>
+              </a>
+              <div class="collapse" id="general-pages">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="../samples/login.html"> Login </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../samples/register.html"> Register </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../samples/error-404.html"> 404 </a></li>
+                  <li class="nav-item"> <a class="nav-link" href="../samples/error-500.html"> 500 </a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+
+            <div class="page-header">
+              <h3 class="page-title">
+                <span class="page-title-icon bg-gradient-primary text-white me-2">
+                  <i class="mdi mdi-checkbox-marked-circle-outline"></i>
+                </span> Agreement
+              </h3> 
+            </div>
+
+            <div class="row">
+
+              <div class="col-12 grid-margin" id="introduction">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="mb-4">CONFIDENTIALITY AND NON-DISCLOSURE AGREEMENT</h3>
+                    <h4>Your Acceptance of this Agreement</h4>
+                    <p>This Non-Disclosure Agreement (“Agreement”) is made and entered into today between Quadrant Resource LLC (“Quadrant Resource LLC”), having its principal place of business at 4034 148th Ave NE, Suite K1C1, Redmond WA – 98052. Each of Quadrant Resource LLC and Consultant a “Party” and together the “Parties”. </p>
+                    <p>WHEREAS, one or all Parties wish to receive certain Confidential Information (as defined below) from the other for the purposes contemplated in the formal business relationship between the Parties or for the purpose of determining whether to enter into such a relationship;
+                      WHEREAS, one or all Parties will disclose (each a “Disclosing Party”) Confidential Information to the other Party (each a “Receiving Party”), subject to the terms and conditions of this Agreement;
+                      NOW, THEREFORE, in consideration of the mutual promises herein set forth, the Parties agree as follows:</p><br><br>
+
+                    <p class="d-inline"><strong>1. Definition of Confidential Information</strong>: Confidential Information includes all information of whatever kind or nature, whether disclosed orally, visually, electronically or in writing, 
+                      that is (a) marked or accompanied by documents clearly and conspicuously designated as “Confidential” or “Proprietary”, (b) identified orally or in writing by the Disclosing Party as confidential before, during or promptly after the 
+                      presentation or communication; or (c) is not generally known in the industry in which the Disclosing Party is or may become engaged and which would reasonably be considered confidential and/or proprietary. Confidential information includes, but is not limited to, 
+                      financial information, personnel information, trade secrets, and names of customers, business strategy, and product plans.
+                    </p><br><br>
+
+                    <p class="d-inline"><strong>2. Use of Confidential Information</strong>: The Receiving Party may use Confidential Information only for the purposes contemplated in the formal business relationships between the Parties or for the purpose of determining whether to enter into such a relationship. 
+                      The Receiving Party further agrees to not use Confidential Information for any other purpose.
+                    </p><br><br>
+
+
+                    <p class="d-inline"><strong>3. Duty to Protect</strong>:  The Receiving Party shall protect the Disclosing Party’s Confidential Information with the same degree of care, but no less than a reasonable degree of care, as the Receiving Party normally uses in the protection of its own confidential and proprietary information. 
+                      The Receiving Party shall use this standard of care to prevent the unauthorized use, disclosure, dissemination, or publication of the Disclosing Party’s Confidential Information. The Receiving Party’s duty to protect the Confidential Information shall last for a period of three (3) years from the date of disclosure.
+                    </p><br><br>
+
+                    <p class="d-inline"><strong>4. Obligations Regarding Confidential Information. The Receiving Party agrees</strong> 
+                      <br>A: Not to make any disclosure of the Disclosing Party's Confidential Information to any third party, nor to use the Disclosing Party's Confidential Information except solely for the purposes contemplated in this Agreement unless such further use of the Confidential Information is specifically authorized in writing by the Disclosing Party.
+                      <br>B: Not to disclose the Disclosing Party's Confidential Information to any personnel or representative of the Receiving Party other than those for whom such knowledge is essential for the purpose contemplated in this Agreement and such disclosure to them shall be made only under conditions of strict confidentiality.
+                    </p><br><br>
+
+
+                    <p class="d-inline"><strong>5. Exclusions</strong> : The restrictions set forth shall not apply with respect to Confidential Information that:
+                      <br>
+                      a. is already available to the public; (b) becomes available to the public through no fault of the Receiving Party, its officers, agents or employees; (c) is already known to the Receiving Party at the time that the Confidential Information is received from the Disclosing Party and is not already subject to, or protected by, a duty of confidentiality under any Confidentiality or Non- disclosure Agreements; (d) is independently developed by the Receiving Party without breach of this Agreement; (e) is rightfully received by the Receiving Party from a third party without a duty of confidentiality; (f) is disclosed by the Receiving Party with the Disclosing Party’s prior written approval; or (g) is required to be disclosed pursuant to law. If a Receiving Party is required by a government body or court of law to disclose Confidential Information, the Receiving Party agrees to give the Disclosing Party reasonable advance notice so that the Disclosing Party may contest the disclosure or seek a protective order.
+                    </p><br><br>
+
+
+                    <p class="d-inline"><strong>6. No Proprietary Interest</strong>: Neither Party acquires any rights in the other Party’s Confidential Information under this Agreement except the limited right necessary to strictly carry out the purposes set forth in this Agreement. This Agreement grants no license by either Party to the other, either directly or by implication, estoppel or otherwise. This Agreement is not intended, nor shall it be construed, to confer any right upon any person or entity not a Party to this Agreement. All Confidential Information exchanged between the Parties shall remain the property of the Disclosing Party.
+                    </p><br><br>
+
+                    <p class="d-inline"><strong>7. Warranty</strong>: Each Disclosing Party warrants that it has the right to make the disclosure under this Agreement. NO OTHER WARRANTIES ARE MADE BY EITHER PARTY UNDER THIS AGREEMENT. ANY INFORMATION EXCHANGED UNDER THIS AGREEMENT IS PROVIDED AS “AS IS”.
+                    </p><br><br>
+
+                    <p class="d-inline"><strong>8. Termination Upon Notice</strong>:  The Agreement may be terminated by the Executive upon (2) weeks’ written notice to Employer. The Company shall have the right to terminate Executive's employment with the Company at any time without Cause, upon notice to the other party.
+                    </p><br><br>
+
+
+                    <p class="d-inline"><strong>9. Exclusive Availability</strong>: Consultant’s understands that Quadrant Resource LLC has substantially invested its time, efforts, force, and money and developed and maintained relations with its clients and if Consultant’s causes to harm Quadrant Resource LLC’s relations with its client, the damages incurred by Quadrant Resource LLC shall be indefinite and difficult to ascertain.
+                    </p><br><br>
+
+
+                    <p class="d-inline"><strong>10. Miscellaneous</strong>: 
+                      <br>
+                      a. This Agreement and all matters arising out of or relating to this Agreement shall be governed by the procedural and substantive laws of the state of Washington and of the United States, without regard to the principles of conflict of law, and shall be deemed executed in Federal Way, WA. Any legal action or proceeding relating to this Agreement shall be instituted in any state or federal court in Federal Way or Seattle Washington. The Parties agree to submit to the jurisdiction of, and agree that the venue is proper in, the aforesaid courts in any such legal action or proceeding. In any action or proceeding to enforce rights under this Agreement, the prevailing Party shall be entitled to recover costs and attorneys’ fees.
+                      <br>
+                      b. Neither Party has an obligation under this Agreement to purchase any service or item from the other Party. Neither Party has an obligation under this Agreement to commercially offer any products using or incorporating Confidential Information. 
+                      <br>
+                      c. Each Party acknowledges that damages for improper disclosure of Confidential Information may be irreparable; therefore, the injured Party is entitled to seek equitable relief, including injunction and preliminary injunction, in addition to all other remedies.
+                    </p><br><br>
+                    
+                    <p class="d-inline"><strong>Confirm below to ensure you have eligible work authorization and an active PayPal account for us to deposit your income</strong>: 
+                      <br>
+                      *IRS regulations requires us to issue a 1099-MISC tax form once you earn over $600 within the year. Please send us a completed W9 form so we can initiate this process.*
+                    </p><br><br>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:../../partials/_footer.html -->
+          <footer class="footer">
+            <div class="container-fluid d-flex justify-content-between">
+              <span class="text-muted d-block text-center text-sm-start d-sm-inline-block">Copyright © quadrantresource.com 2023</span>
+              <span class="float-none float-sm-end mt-1 mt-sm-0 text-end">Privacy Policy | © 2023 Quadrant Resource</span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <!-- End custom js for this page -->
+  </body>
+</html>
