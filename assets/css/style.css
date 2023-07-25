@@ -15,6 +15,23 @@ background: rgb(28,147,184);
 background: linear-gradient(90deg, rgb(37, 88, 104) 0%, rgb(12, 110, 122) 49%, rgb(18, 79, 91) 100%);
 }
 
+.navbar.default-layout-navbar.col-lg-12.col-12.p-0.fixed-top.d-flex.flex-row.NavBG{
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sidebar{
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @-webkit-keyframes flash {
   0% {
     opacity: 1; }
@@ -14110,7 +14127,7 @@ dl {
             font-size: 1.125rem;
             line-height: 1;
             margin-left: auto;
-            color: #79b6eb; }
+            color: #c8ced3; }
             .rtl .sidebar .nav .nav-item .nav-link i.menu-icon {
               margin-left: 0;
               margin-right: auto; }
@@ -14146,7 +14163,8 @@ dl {
         .sidebar .nav .nav-item .nav-link[aria-expanded="true"] .menu-arrow:before {
           content: "\f140"; }
       .sidebar .nav .nav-item.active {
-        background: #ffffff; }
+        background: rgb(6,22,36);
+        background: linear-gradient(90deg, rgba(6,22,36,1) 0%, rgba(5,31,54,1) 50%, rgba(2,29,53,1) 100%); }
         .sidebar .nav .nav-item.active > .nav-link .menu-title {
           color: #1c6fb8;
           font-family: "ubuntu-medium", sans-serif; }
@@ -14511,3 +14529,11 @@ dl {
   padding: 0;
 }
 
+.sidebar{
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
